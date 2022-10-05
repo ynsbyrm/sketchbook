@@ -17,10 +17,10 @@ The following guides illustrate how to use some features concretely:
 * [Building REST services with Spring](https://spring.io/guides/tutorials/rest/)
 * [Building a RESTful Web Service with Spring Boot Actuator](https://spring.io/guides/gs/actuator-service/)
 
-### Manual
-* [Click here after run the application](http://localhost:8080/actuator)
+### Actuator
+* [Click here after run the application](http://localhost:8080/api/hello)
 
-If you see something like that, it means your application run correctly;
+If you see something like that, it means your application has actuator;
 ```json
 {
     "_links": {
@@ -39,3 +39,9 @@ If you see something like that, it means your application run correctly;
     }
 }
 ```
+
+### Manual
+* [Click here after run the application](http://localhost:8080/api/hello)
+
+If you've seen hello world message, it means your application run correctly.
+Congratulations! your first Spring Rest App is up and running.
