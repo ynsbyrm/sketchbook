@@ -45,3 +45,7 @@ If you see something like that, it means your application has actuator;
 
 If you've seen hello world message, it means your application run correctly.
 Congratulations! your first Spring Rest App is up and running.
+
+### Branch Order
+* core
+* spring-rest_2
